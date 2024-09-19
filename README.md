@@ -6,7 +6,7 @@ Full-Stack JS engineer test assessment - the Country Info App
 
 ### Backend
 
-1. Go to `backend` directory:
+1. Go to the `backend` directory:
    ```
    cd backend
    ```
@@ -16,7 +16,7 @@ Full-Stack JS engineer test assessment - the Country Info App
    npm install
    ```
 
-3. Create a `.env` file on /backend directory with .env.example content:
+3. Create a `.env` file in the `/backend` directory with .env.example content:
    ```
     APP_NODE_ENV=development
     APP_PROTOCOL=http
@@ -31,7 +31,7 @@ Full-Stack JS engineer test assessment - the Country Info App
 
 ### Frontend
 
-1. Go `frontend` directory on another terminal:
+1. Open another terminal and navigate to the `frontend` directory:
    ```
    cd frontend
    ```
@@ -40,33 +40,53 @@ Full-Stack JS engineer test assessment - the Country Info App
    ```
    npm install
    ```
-3. Create a `.env` file on /frontend directory with .env.example content:
+3. Create a `.env` file in the `/frontend` directory with .env.example content:
    ```
     HOST=localhost
     PORT=3000
     // Replace localhost:3001 with your backend url
     REACT_APP_API_URL=http://localhost:3001/v1
    ```
-4. Start the frontend app:
+4. Start the frontend application:
    ```
    npm run start
    ```
 
-## App now is working!
+## Application Setup
 
-1. Start the backend server (should be at http://localhost:3001)
-2. Start the frontend server (should be at http://localhost:3000)
-3. Open your favourite browser and go to http://localhost:3000
+1. Start the backend server (it should be accessible at http://localhost:3001)
+2. Start the frontend server (it should be accessible at http://localhost:3000)
+3. Open your preferred web browser and navigate to http://localhost:3000 to use the app.
 
-## Linting y Formattng
+## Linting and Formatting
 
-To lint the code:
+You can lint and format both the frontend and backend codebases separately.
+
+### Frontend
+
+To lint the frontend codebase, navigate to the `frontend` directory and run:
 
 ```
+cd frontend
 npm run lint
 ```
 
-To format the code:
+To format the frontend codebase, run:
+
+```
+npm run format
+```
+
+### Backend
+
+To lint the frontend codebase, navigate to the `backend` directory and run:
+
+```
+cd backend
+npm run lint
+```
+
+To format the frontend codebase, run:
 
 ```
 npm run format
