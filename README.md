@@ -45,7 +45,7 @@ Full-Stack JS engineer test assessment - the Country Info App
     HOST=localhost
     PORT=3000
     // Replace localhost:3001 with your backend url
-    REACT_APP_API_URL=http://localhost:3001/v1
+    REACT_APP_API_URL=http://localhost:3001
    ```
 4. Start the frontend application:
    ```
